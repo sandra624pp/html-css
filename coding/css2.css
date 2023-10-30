@@ -1,0 +1,48 @@
+.div1{
+    background-color:black;    
+    text-align: center;
+    border-radius: 20px;
+    margin-top:120px;
+    margin-left:560px;
+    margin-right: 560px;
+    width:270px;
+    height:500px;
+    float: left;
+}
+.div2{
+    background-color: white;
+    text-align: center;
+    border-radius:10px;
+    width:250px;
+    height:50px;
+    border-left:20px;
+    border-right:20px;
+    margin-left:10px;
+    margin-top:30px;
+    
+}
+.div3{
+    background-color: white;
+    text-align: center;
+    width:50px;
+    height:50px;
+    margin-left:15px;
+    border-radius:10px;
+    margin-top:20px;
+    float:right;
+    
+}
+.div4{
+    background-color: white;
+    text-align: center;
+    width:50px;
+    height:50px;
+    margin-left:15px;
+    border-radius:30px;
+    margin-top:20px;
+    float:right;
+}
+.aa{
+    display: flex;
+
+}

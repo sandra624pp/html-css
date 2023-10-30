@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 3;
+                padding: 2;
+                overflow: hidden;
+                background-color: rgb(144, 59, 59);
+            }
+
+            li {
+                float: left;
+            }
+
+            li a, .dropbttn {
+                display: inline-block;
+                color: black;
+                text-align: center;
+                padding: 15px 17px;
+                text-decoration: none;
+            }
+
+            li.dropbttn {
+                display: inline-block;
+            }
+
+            li a:hover, .dropdown:hover .dropbttn{
+                background-color: rgb(241, 241, 241);
+            }
+           
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: rgb(220, 160, 160);
+                min-width: 200px;
+                box-shadow: 0px 5px 4px 0px grey;
+                z-index: 1;
+            }
+
+            .dropdown-content a{
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown-content a:hover {background-color: azure;}
+            
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+
+        <ul>
+            <li class="dropdown">
+            <a href="animal" class="dropbttn">Animal</a>
+            <div class="dropdown-content">
+             <a href="file:///C:/Users/soft/Desktop/coding/dropdownprjct%201.html"><img src="berkay-gumustekin-ngqyo2AYYnE-unsplash.jpg"  alt="Dog" width="200" height="200"></a>
+             
+             <a href="#"><img src="alexander-london-mJaD10XeD7w-unsplash.jpg"  alt="cat" width="200" height="200"></a>
+             <a href="#"><img src="helena-lopes-Y5iPU37b7Zs-unsplash.jpg"  alt="Horse" width="200" height="200"></a>
+             <a href="#"><img src="janan-lagerwall-302xfiIGOfE-unsplash.jpg"  alt="Rbbit" width="200" height="200"></a>
+             <a href="#"><img src="emmy-shingiro-ZcxyiZ_MJ6U-unsplash.jpg"  alt="Zibra" width="200" height="200"></a>
+             <a href="#"><img src="bob-brewer-daC7ji1EMHM-unsplash.jpg"  alt="Monkey" width="200" height="200"></a>
+             <a href="#"><img src="elie-khoury-GidYc-pS9sM-unsplash.jpg"  alt="Lion" width="200" height="200"></a>
+             <a href="#"><img src="geranimo-AX9sJ-mPoL4-unsplash.jpg"  alt="Elephant" width="200" height="200"></a>
+             
+            </div>
+          
+          </li>
+                <li class="dropdown">
+                <a href="names of animal" class="dropbttn">Names</a>
+                <div class="dropdown-content">
+                    <a href="#">Dog</a> 
+                    <a href="#">Cat</a>
+                    <a href="#">Horse</a>
+                    <a href="#">Rabbit</a>
+                    <a href="#">zibra</a>
+                    <a href="#">Monkey</a>
+                    <a href="#">Lion</a>
+                    <a href="#">Elephant</a>
+
+
+                  
+                    
+                </div>
+            </li>
+        </ul>
+    </body>
+</html>

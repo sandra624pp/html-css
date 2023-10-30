@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            ul{
+                list-style-type: disc;
+                margin: 1;
+                padding:0%;
+                overflow: auto;
+                background-color: black;
+            }
+
+            li{
+                float: right;
+            }
+
+            li.dropdown{
+                display: inline-block;
+            }
+
+            li a, .dropbttn{
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 12px 16px;
+                font-size: bold;
+                text-shadow: 1px 1px black;
+
+            }
+
+            li a:hover, .dropdown:hover .dropbttn{
+                background-color: rgb(241, 95, 102);
+            }
+
+            div{
+                background-color: black;
+                color: white;
+                padding: 10px;
+                text-align: center;
+                margin-left: 20px;
+                margin-right: 1300px;
+                
+            }
+
+            div1{
+                margin-left: 20px;
+            }
+
+            div:hover{
+                background-color: brown;
+            }
+
+            .img1{
+                width: 600px;
+                height: 500px;
+                position: absolute;
+                top: 71px;
+                left: 200px; margin-left: 600px;
+                box-shadow: 1px 1px 1px 1px grey;
+                margin-top: 90px;
+            
+            }
+
+            img{
+                width: 200px;
+                height: 300px;
+                position: relative;
+            }
+
+            .grid-container{
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+            }
+
+            .grid-item{
+                border: 1px solid black;
+                padding: 14px;
+                text-align: center;
+            }
+
+            p{
+                text-align: initial;
+                margin-right: 6px;
+                margin-left: 6px;
+            }
+
+            button{
+                display: inline-block;
+                padding: 10px 15px;
+                text-align: center;
+                color: cadetblue;
+                background-color: red;
+                border-radius: 10px;
+            }
+
+        
+        </style>
+    </head>
+
+    <body>
+        <ul>
+            <li class="dropdown">
+                <h5 href="#"class="dropbttn">Sign In/Sign Up</h5>
+            </li>
+            <li class="dropdown">
+                <h5 href="#"class="dropbttn">About</h5>
+            </li>
+            <li class="dropdown">
+                <h5 href="#"class="dropbttn">Contact Us</h5>
+            </li>
+            <li class="dropdown">
+                <h5 href="#"class="dropbttn" style="background-color: red;">Home</h5>
+            </li>
+        </ul>
+
+        <h1 style="margin-left: 25px; margin-top: 100px;  font-family: 'Times New Roman', Times, serif; font-weight: bold; 
+        text-shadow: 1px 1px grey; color: rgb(0, 17, 128);">Bloom Flower Shop</h1>
+        <p style="margin-left: 21px; margin-right: 1000px; text-shadow: 1px 1px white;">Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Sed at ligula eu purus tristique dignissim. Phasellus bibendum lectus ac justo accumsan, vel lacinia ex euismod.</p>
+            <div>Explore</div>
+            <img src="flower 1.jpg" class="img1">
+           
+            <br>
+           <br>
+            <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+  
+
+            <h2 style="text-align: center; margin-top: 101px; font-weight: bolder;"> New Arrivels</h2>
+            <div1 class="grid-container">
+                <div1 class="grid-item" style="height: 405px; width: 305px;">
+                    <img src="flower6.jpg" height="405px" width="305px" alt="img1">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at 
+                        ligula eu purus tristique dignissim. Phasellus bibendum lectus ac justo accumsan, 
+                        vel lacinia ex euismod.</p>
+                </div1>
+                <div1 class="grid-item" style="height: 405px; width: 305px;">
+                
+                    <img src="flower2.jpg" height="405px" width="305px" alt="img1">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at 
+                        ligula eu purus tristique dignissim. Phasellus bibendum lectus ac justo accumsan, 
+                        vel lacinia ex euismod.</p>
+                </div1>
+                <div1 class="grid-item" style="height: 405px; width: 305px;">
+                    <img src="flower4.jpg" height="405px" width="305px" alt="img1">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at 
+                        ligula eu purus tristique dignissim. Phasellus bibendum lectus ac justo accumsan, 
+                        vel lacinia ex euismod.</p>
+                </div1>
+                <div1 class="grid-item" style="height: 405px; width: 305px;">
+                
+                    <img src="flower5.jpg" height="405px" width="305px" alt="img1">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at 
+                        ligula eu purus tristique dignissim. Phasellus bibendum lectus ac justo accumsan, 
+                        vel lacinia ex euismod.</p>
+                </div1>
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+
+                <div2 style="position: absolute; margin-left: 21px; margin-top: 499px;">
+                    <h2>Sign Up</h2>
+                    <br>
+            
+                    <h4>Name</h4>
+                    <form>
+                        <input type="text" id="Name">
+                    </form>
+
+                    <h4>Password</h4>
+                    <form>
+                        <input type="password" id="Password">
+                    </form>
+
+                    <br>
+
+                    <button class="button">Submit</button>
+                </div2>
+
+
+                <div3 style="position: absolute; margin-left: 905px; margin-top: 505px;">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at 
+                    ligula eu purus tristique dignissim. Phasellus bibendum lectus ac justo accumsan, 
+                    vel lacinia ex euismod.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at 
+                    ligula eu purus tristique dignissim. Phasellus bibendum lectus ac justo accumsan, 
+                    vel lacinia ex euismod.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at 
+                    ligula eu purus tristique dignissim. Phasellus bibendum lectus ac justo accumsan, 
+                    vel lacinia ex euismod.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at 
+                    ligula eu purus tristique dignissim. Phasellus bibendum lectus ac justo accumsan, 
+                    vel lacinia ex euismod.</p>
+                </div3>
+    </body>
+</html>
